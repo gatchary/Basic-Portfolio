@@ -12,6 +12,12 @@
     
     
   }
+
+  header, h1, ul, li  {
+    display: inline-block;
+    margin: 0;
+    
+}
   
   header {
     width: 100%;  
@@ -19,26 +25,31 @@
     background: #fff;
     border: 1px solid;
     border-color: #ccc;
+    margin-bottom: 20px;
 
   }
 
 /* size the div tag inside of the header tag, so i can get a inline with a block element */
   .sizeme {
       width: 960px;
+      margin: 0 auto;
       
   }
 
   /* float my header tag right */
   .floatmeR {
       float: right;
+     
       
   }
 
 
 
 /* directly calling class in h1 div */
-  div h1 .floatmeL {
+  .floatmeL {
     float: left;
+    
+    
     
     
 }
@@ -48,14 +59,20 @@
     color: #eee;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 
     
     
 }
 
-  header, h1, ul, li  {
-    display: inline-block;
-    margin: 0;
+/* code for creating bottom border in text */
+.border_bottom {
+    border-bottom: #777777 1px solid;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
     
 }
 
@@ -69,8 +86,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 300px;
-    height: 58.8
+    
     
 }
 
@@ -86,7 +102,7 @@ li a {
     padding-bottom: 20px;
     padding-right: 10px;
     padding-left: 10px;
-    margin: 0 auto;
+    
         
     
 
@@ -99,6 +115,43 @@ li a:hover {
     color: white;
 }
 
-div ul li {
-    text-align: center;
+
+/* image size class for connect with me */
+.imgsize {
+    
+    width: 67px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    
+}
+
+.imageflw {
+    float: left;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+#main {
+    width: 650px;
+    background-color: white;
+    float: left;
+}
+
+#contact {
+    width: 270px;
+    background-color: white;
+    float: right;
+}
+
+footer {
+    clear: both;
 }
